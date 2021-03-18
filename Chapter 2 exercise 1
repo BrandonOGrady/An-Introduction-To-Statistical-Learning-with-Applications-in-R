@@ -1,1 +1,9 @@
+(a) Better - a more flexible approach will fit the data closer and with the
+large sample size a better fit than an inflexible approach would be obtained
 
+(b) Worse - a flexible method would overfit the small number of observations
+
+(c) Better - with more degrees of freedom, a flexible model would obtain a
+better fit
+
+(d) Worse - flexible methods fit to the noise in the error terms and increase variance
