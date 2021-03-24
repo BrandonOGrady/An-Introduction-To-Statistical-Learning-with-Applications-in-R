@@ -1,0 +1,12 @@
+* What are the advantages and disadvantages of a very flexible (versus a less flexible) approach for regression or classification? *
+
+Some advantages of a very flexible approach are that it could give a better fit for a non-linear model and the bias decreases. Some disadvantages are that it could cause the model
+to be overfit that increases the error of the model
+
+*Under what circumstances might a more flexible approach be preferred to a less flexible approach?* 
+
+A more flexible approach may be preferred to a less flexible approach when the model is more interested in prediction than the inference of the results.
+
+*When might a less flexible approach be preferred?*
+
+A less flexible approach may be preferred to a more flexible approach when the model is more interested in the inference than the prediction of the results.
