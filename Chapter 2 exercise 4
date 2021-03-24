@@ -1,0 +1,12 @@
+a. Classification
+•	Should a student be admitted into a certain university or not. Predictors: GPA, standardized test scores, Essay, extracurricular activities, volunteering, etc. Response: Admit/not admit. Goal: prediction. This is prediction because this is a statement about what will or might happen in the future.
+•	Success of a vaccine. Response: Disease/No Disease. Predictors: Gender, age, height, weight, blood type. Goal: prediction. This is prediction because this is a statement about what will or might happen in the future.
+•	Success of a movie. Response: Successful/Not Successful: Predictors: Money spent, Grossing, Net gain, director, cast, award category nominees, award category winners. Goal: prediction. This is prediction because this is a statement about what will or might happen in the future.
+b. Regression
+•	The rise or decrease in the price of the stock in the market. Response: the change in value of the stock. Predictors: The overall change in the market, inflation, sales, the gain/loss of profit. Goal: inference. This is inference because it the act or process of reaching a conclusion about something from known facts or evidence.
+•	A car company testing the millage of a new car concept. Response: the average city/highway miles per gallon. Predictors: Type of engine, car type, type of fuel, etc. Goal: inference. This is inference because it the act or process of reaching a conclusion about something from known facts or evidence.
+•	Predicting the price of wine. Response: Price of wine. Predictors: Age, locations, type of wine, type of grapes, how it is fermented, etc. Goal: inference. This is inference because it the act or process of reaching a conclusion about something from known facts or evidence.
+c. Cluster analysis 
+•	The way a vending machine reads a coin when inserted. Response: the machine guessing what type of coin is inserted. Predictors: weight and diameter of coin. This would be helpful for the vending machine companies and its customers, so they do not get rob. 
+•	The second example could be used with the data of houses in a city. For example, the x-axis will have the number of rooms and the y-axis is the average value of the house. Then it could be grouped into 4-6 separate groups based on their location in the city. 
+•	The third example could be used with companies in three different categories (small, medium, and large). The x-axis could be profit and the y-axis could be the number of employees. 
