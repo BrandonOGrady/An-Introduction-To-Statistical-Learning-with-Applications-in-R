@@ -1,12 +1,10 @@
-(a) regression. inference. quantitative output of CEO salary based on CEO
-firm's features.
-n - 500 firms in the US
-p - profit, number of employees, industry
+a. The study is a regression problem, and we are most interested in inference because the data is quantitative in the form of knowing what affects the CEO salary. 
+The sample size is n=500 and the number of predictors is p=3.
 
-(b) classification. prediction. predicting new product's success or failure.
-n - 20 similar products previously launched
-p - price charged, marketing budget, comp. price, ten other variables
+b. The study is a classification, and we are most interested in the prediction because we are interested in whether the new product will
+be a success or not by observing the data on previously launched products. The sample size is n= 20 and the number of predictors is p=13.
 
-(c) regression. prediction. quantitative output of % change
-n - 52 weeks of 2012 weekly data
-p - % change in US market, % change in British market, % change in German market
+c. The study is a regression problem, and we are most interested in the prediction because we are interested in the percent change in the US/Euro exchange rate in relation 
+to the weekly changes in the world stock markets. The data is collected weekly for all of 2012 for the percent change in the US market, British market, and the percent change 
+in the German market. The sample size is n=52 (weeks in a year), and the number of predictors is p=3.
+
