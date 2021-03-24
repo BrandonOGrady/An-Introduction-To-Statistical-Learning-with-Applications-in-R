@@ -1,0 +1,65 @@
+R code
+
+install.packages("ISLR")
+#Homework 1-Problem 10
+#a
+library(MASS)
+Boston
+?Boston
+
+#b
+par(mfrow = c(2, 2))
+plot(Boston$ptratio, Boston$crim)
+plot(Boston$tax, Boston$crim)
+plot(Boston$age, Boston$crim)
+plot(Boston$dis, Boston$crim)
+
+#c
+pairs(Boston)
+
+cor(Boston$crim, Boston$zn)
+cor(Boston$crim, Boston$indus)
+cor(Boston$crim, Boston$chas)
+cor(Boston$crim, Boston$nox)
+cor(Boston$crim, Boston$rm)
+cor(Boston$crim, Boston$age)
+cor(Boston$crim, Boston$dis)
+cor(Boston$crim, Boston$rad)
+cor(Boston$crim, Boston$tax)
+cor(Boston$crim, Boston$ptratio)
+cor(Boston$crim, Boston$black)
+cor(Boston$crim, Boston$lstat)
+cor(Boston$crim, Boston$medv)
+
+#d
+summary(Boston$crim)
+summary(Boston$tax)
+summary(Boston$ptratio)
+
+A <- subset( Boston, crim > 30)
+nrow(A)/ nrow(Boston)
+
+B <- subset( Boston, tax > 650)
+nrow(B)/ nrow(Boston)
+
+C <- subset(Boston, ptratio > 20)
+nrow(C)/ nrow(Boston)
+
+#e
+nrow(subset(Boston, chas ==1)) 
+
+#f
+summary(Boston$ptratio)
+
+#g
+selection <- Boston[order(Boston$medv),]
+selection[1,]
+
+#h
+room <- subset(Boston, rm>7)
+nrow(room)  
+
+room8 <- subset(Boston, rm>8)
+nrow(room8) 
+
+summary(room8)
