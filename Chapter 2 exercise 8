@@ -1,0 +1,19 @@
+R Code
+
+# A
+college <- read.csv("College.csv")
+
+# B
+rownames(college)=college [,1]
+fix(college)
+
+college=college[,-1]
+fix(college)
+
+#Ci
+summary(college)
+
+#Cii
+pairs(college[, 1:10])
+
+
