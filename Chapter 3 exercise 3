@@ -1,0 +1,14 @@
+a.
+Y = 50 + 20(gpa) + 0.07(iq) + 35(gender) + 0.01(gpa*iq) – 10(gpa*gender)
+iii (For a fixed value of IQ and GPA, males earn more on average than females provided that the GPA is high enough) is the correct answer because 
+males: Y = 50 + 20(gpa) + 0.07(iq)  + 0.01(gpa*iq) 
+females : 50 + 10(gpa) + 35(1) + 0.07(iq) + 0.01(gpa*iq)
+males = females: 50 + 20(gpa) >= 85 + 10(gpa) = GPA >= 3.5
+The starting salary for males is higher than for females on average provided that the GPA is high enough
+
+b. 
+y= 50+(10*4)+(0.07*110)+35+(0.01*4*110) = 137.1
+The predicted the salary of a female with the IQ of 11 and a GPA of 4.0 postgrad salary is 137,100 dollars a year.
+
+c.
+False, it doesn’t matter that the interaction term is very small to show little evidence of an interaction effect, we need to verify the impact by running a hypothesis test and look at the p-value to reject or fail to reject the null hypothesis: B4=0. 
