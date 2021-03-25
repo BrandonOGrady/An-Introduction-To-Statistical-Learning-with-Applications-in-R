@@ -1,0 +1,3 @@
+The final result of KNN classifier is the classification output for Y
+(qualitative), where as the output for a KNN regression predicts the
+quantitative value for f(X)
