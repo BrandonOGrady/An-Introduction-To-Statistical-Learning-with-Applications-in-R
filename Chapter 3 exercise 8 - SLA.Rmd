@@ -1,0 +1,46 @@
+---
+title: "Chapter 3 exercise 8"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise 8
+
+
+```{r}
+data("Auto")
+head(Auto)
+```
+
+## 8a
+```{r}
+fit <- lm(mpg ~ horsepower, data = Auto)
+summary(fit)
+```
+#i - There is a relationship between horsepower and miles per gallon
+#ii - The R square is equal to .6059 so about 60.6 percent of variability in mpg can be explained using horsepower.
+#iii - The relationship between the predictor and the response is negative. Horsepower is negative and the more horsepower a car has the less mpg it will have.
+#iv 
+```{r}
+predict(fit, data.frame(horsepower=c(98)), interval="confidence")
+```
+```{r}
+predict(fit, data.frame(horsepower=c(98)), interval="prediction")
+```
+
+## 8b
+```{r}
+plot(Auto$horsepower, Auto$mpg, main = "Scatterplot of mpg vs. horsepower", xlab = "horsepower", ylab = "mpg")
+abline(fit, col = "red")
+```
+
+## 8c
+```{r}
+par(mfrow=c(2,2))
+plot(fit)
+```
+
+
